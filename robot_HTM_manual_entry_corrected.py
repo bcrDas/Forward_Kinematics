@@ -111,7 +111,7 @@ def forward_kinematics(angle_1,angle_2,angle_3,angle_4,angle_5,link_1,link_2,lin
     D0_1 = [[0],[0],[link_1]]
     D1_2 = [[link_2*np.cos(angle_2)],[link_2*np.sin(angle_2)],[0]]
     D2_3 = [[link_3*np.cos(angle_3)],[link_3*np.sin(angle_3)],[0]]
-    D3_4 = [[200],[0],[0]] # According to convention [[0],[0],[0]] *** Doubt
+    D3_4 = [[link_4],[0],[0]] # According to convention [[0],[0],[0]] *** Doubt
     D4_5 = [[0],[0],[link_5]]
 
 
